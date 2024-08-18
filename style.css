@@ -151,7 +151,7 @@ hr{
   color: #D5ED9F;
 }
 
-@media (max-width: 1650px) {  
+@media (max-width: 1600px) {  
   .title{      
     height: 100%;   
   }
@@ -208,6 +208,10 @@ hr{
 
 
 @media (max-width: 680px) {
+  .container {    
+    max-width: 100%;      
+  }
+
   .title{      
     height: 100%;   
   }
@@ -258,5 +262,24 @@ hr{
     align-items: center;
     position: relative;  
     background-color: #EEEEEE;
+  }
+
+  .introduction{
+    position: relative;  
+    width: 300px;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+  }  
+
+  h3{  
+    width: 300px;
+    font-family: sans-serif;
+    font-size: 25px;
+    margin-top: 20px;
+    color: darkgreen;
+    text-align: center;
+    text-decoration: underline;
   }
 }
