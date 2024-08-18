@@ -53,6 +53,8 @@ h1{
   position: relative;
   right: 200px;
   top: 35px;
+  width: 700px;
+  height: 700px;
 }
 
 .cloud1{
@@ -147,4 +149,114 @@ hr{
 
 #contact{
   color: #D5ED9F;
+}
+
+@media (max-width: 1400px) {  
+  .title{      
+    height: 100%;   
+  }
+
+    h1{
+    font-size: 50px;
+    position: relative;    
+   }
+
+  .description{
+    position: relative;
+    font-size: 30px;
+    width: 300px;
+    text-align: center;
+    right: -110px;
+  }
+
+  .cv{
+    position: relative;
+    right: -230px;
+    top: -5px;
+  }
+
+  .cloud1{
+    position: relative;
+    right: 100px;
+    top: -100px
+  }
+
+  .cloud2{
+    position: relative;
+    right: -220px;  
+    top: -75px;
+  }
+
+   .tree{
+    position: relative;
+    right: 200px;
+    top: 35px;
+    width: 350px;
+    height: 350px;
+  }
+
+  .about-me{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;  
+    background-color: #EEEEEE;
+  }
+}
+
+
+
+@media (max-width: 680px) {
+  .title{      
+    height: 100%;   
+  }
+
+  h1{
+    font-size: 25px;
+    position: relative;  
+    right: -45px;     
+   }
+
+  .description{
+    position: relative;
+    font-size: 15px;
+    width: 200px;
+    text-align: center;
+    right: -15px;
+  }
+
+  .cv{
+    position: relative;
+    right: -90px;
+    font-size: 13px;
+  }
+
+  .cloud1{
+    position: relative;
+    right:-30px;    
+    top: -100px;
+    height: 20px;
+  }
+   .tree{
+    position: relative;
+    top: 35px;
+    width: 200px;
+    height: 200px;
+  }
+
+  .cloud2{
+    position: relative;
+    right: -200px;  
+    top: -200px;    
+  }
+
+  .about-me{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;  
+    background-color: #EEEEEE;
+  }
 }
